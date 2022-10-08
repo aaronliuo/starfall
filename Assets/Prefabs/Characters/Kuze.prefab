@@ -40,7 +40,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6030467187571796337}
-  - component: {fileID: 720711878005632096}
   - component: {fileID: 9022491301517459126}
   - component: {fileID: 2209941958424983577}
   m_Layer: 0
@@ -67,39 +66,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &720711878005632096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030467187571796336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d68671e37a842f4b85cadd362b6ab28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  motor: {fileID: 2209941958424983577}
-  orbitPoint: {fileID: 9018051324254176363}
-  health: 100
-  maxStableMoveSpeed: 10
-  stableMovementSharpness: 15
-  orientationSharpness: 10
-  orientationMethod: 1
-  maxAirMoveSpeed: 15
-  airAccelerationSpeed: 15
-  drag: 0.1
-  allowJumpingWhenSliding: 1
-  canDoubleJump: 0
-  jumpUpSpeed: 10
-  jumpScalableForwardSpeed: 10
-  jumpPreGroundingGraceTime: 0
-  jumpPostGroundingGraceTime: 0
-  weapon: {fileID: 0}
-  aimingMovementPenalty: 0.75
-  secondsToLockShootingOrientation: 1
-  ignoredColliders: []
-  gravity: {x: 0, y: -30, z: 0}
 --- !u!136 &9022491301517459126
 CapsuleCollider:
   m_ObjectHideFlags: 8
